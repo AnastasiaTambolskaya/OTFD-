@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.head {
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 39px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 720px;
+    height: 507px;
+    border-radius: 50px;
+    background: #FFF;
+margin-left: 86px;
+margin-top: 205px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.man-sign {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 113px;
+    width: 538px;
+height: 650px;
+}
+
+.mail {
+    width: 518px;
+height: 43px;
+border-radius: 40px;
+border: 1px solid #000;
+
+background: #FFF;
+color: rgba(0, 0, 0, 0.51);
+
+text-align: right;
+font-family: Didact Gothic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
