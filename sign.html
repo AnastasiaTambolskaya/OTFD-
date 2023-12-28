@@ -7,18 +7,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style/reset.css">
 <link rel="stylesheet" href="style/sign.css">
 </head>
 <body>
     <img src="image/otfd-logo.png" alt="otfd-logo" class="head">
-    <p class="sign">Вход</p>
-    <form action="action_form.php" method="POST"> 
-        <input type="text" name="mail" size="15" maxlength="50" value="Электронная почта" class="mail">  
-        <p><input type="password" name="password" size="15" maxlength="30" class="password"></p>
-        <input type="submit"> 
-      </form>
+    <img src="image/ВХОД.png" alt="ВХОД" class="sign">
+    <div class="container">
+        <input type="email" id="email" class="input-field" placeholder="example@example.com" required>
+        <p><input type="password" id="password" class="input-field" placeholder="Enter your password" required></p>
+    </div>
+    <button class="btn">OK</button>
     <div class="rectangle"></div>
+<a href="#" class="ex-pass">Забыли пароль?</a>
     <img src="image/man-sign.png" alt="man-sign" class="man-sign">
+    <script src="sign.js"></script>
 </body>
 </html>
