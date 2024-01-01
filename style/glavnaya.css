@@ -36,6 +36,7 @@ body {
     background: transparent;
     cursor: pointer;
 }
+
 .text-pora {
     position: absolute;
     flex-shrink: 0;
@@ -44,18 +45,20 @@ body {
 
 
 }
+
 .text-otfd {
     position: absolute;
     color: #4D91FE;
-margin-top: 355px;
-margin-left: 1252px;
-text-align: right;
-font-family: Roboto Flex;
-font-size: 96px;
-font-style: normal;
-font-weight: 1000;
-line-height: normal;
+    margin-top: 355px;
+    margin-left: 1252px;
+    text-align: right;
+    font-family: Roboto Flex;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
 }
+
 .icon-glavnaya {
     margin-top: 147px;
     width: 984px;
@@ -64,36 +67,40 @@ line-height: normal;
 
 .btn-start {
     width: 426px;
-height: 59px;
-border-radius: 60px;
-background: #4F92FE;
-color: #FFF;
-border: none;
-cursor: pointer;
-margin-left: 630px;
-margin-top: -90px;
-font-family: Limelight;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
+    height: 59px;
+    border-radius: 60px;
+    background: #4F92FE;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    margin-left: 630px;
+    margin-top: -90px;
+    font-family: Limelight;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
+
 .text-secondpage {
     position: absolute;
     margin-left: 275px;
     margin-top: 213px;
 }
+
 .text-grey {
     position: absolute;
     margin-left: 275px;
     margin-top: 385px;
 }
+
 .man-glavnaya1 {
     position: absolute;
     margin-top: 94px;
     margin-left: 700px;
 }
+
 .rectangle_glavnaya {
     margin-left: 235px;
     margin-top: 142px;
@@ -101,51 +108,55 @@ text-transform: uppercase;
 
 .vvodni_text {
     color: #000;
-text-align: center;
-font-family: Didact Gothic;
-font-size: 40px;
-font-style: normal;
-font-weight: 400;
-line-height: 35px; /* 87.5% */
-width: 407px;
-margin-left: 300px;
-margin-top: -200px;
+    text-align: center;
+    font-family: Didact Gothic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 87.5% */
+    width: 407px;
+    margin-left: 300px;
+    margin-top: -200px;
 }
 
 .bukvaA_img {
     margin-left: 307px;
     margin-top: 150px;
 }
+
 .bukvaA {
-    
+
     margin-left: 177px;
     margin-top: 10px;
     color: #000;
-text-align: center;
-font-family: Didact Gothic;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 352px;
+    text-align: center;
+    font-family: Didact Gothic;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 352px;
 }
+
 .bukvaB_img {
     position: absolute;
     margin-left: 425px;
     margin-top: -170px;
 }
+
 .bukvaB {
     position: absolute;
     margin-top: -65px;
     margin-left: 450px;
     color: #000;
-text-align: center;
-font-family: Didact Gothic;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 411px;
+    text-align: center;
+    font-family: Didact Gothic;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 411px;
 }
 
 .bukvaC_img {
@@ -153,19 +164,21 @@ width: 411px;
     margin-left: 285px;
     margin-top: -70px;
 }
+
 .bukvaC {
     position: absolute;
     color: #000;
-text-align: center;
-font-family: Didact Gothic;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 352px;
-margin-left: 325px;
-margin-top: 30px;
+    text-align: center;
+    font-family: Didact Gothic;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 352px;
+    margin-left: 325px;
+    margin-top: 30px;
 }
+
 .text_thirdpage {
     margin-top: 235px;
     margin-left: 500px;
@@ -177,54 +190,57 @@ margin-top: 30px;
 }
 
 .Knowledge {
-  margin-left: 100px;
+    margin-left: 100px;
 }
 
 .lasttext {
-    
+
     width: 595px;
-height: 134px;
-flex-shrink: 0;
-margin-left: 780px;
-margin-top: -550px;
-color: #4D91FE;
-text-align: right;
-font-family: 'Russo One', sans-serif;
-font-size: 84px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    height: 134px;
+    flex-shrink: 0;
+    margin-left: 780px;
+    margin-top: -550px;
+    color: #4D91FE;
+    text-align: right;
+    font-family: 'Russo One', sans-serif;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+
 .insta {
     width: 36px;
-height: 36px;
-margin-left: 860px;
-margin-top: 50px;
+    height: 36px;
+    margin-left: 860px;
+    margin-top: 50px;
 }
+
 .insta-text {
     color: #000;
-font-family: Didact Gothic;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 910px;
-margin-top: -40px;
+    font-family: Didact Gothic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 910px;
+    margin-top: -40px;
 }
 
 .telegram {
     width: 40px;
-height: 40px;
-margin-left: 860px;
-margin-top: 0px;
+    height: 40px;
+    margin-left: 860px;
+    margin-top: 0px;
 }
+
 .telegram-text {
     color: #000;
-font-family: Didact Gothic;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 913px;
-margin-top: -40px;
+    font-family: Didact Gothic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 913px;
+    margin-top: -40px;
 }
