@@ -175,3 +175,56 @@ margin-top: 30px;
     margin-left: 250px;
     margin-top: 50px;
 }
+
+.Knowledge {
+  margin-left: 100px;
+}
+
+.lasttext {
+    
+    width: 595px;
+height: 134px;
+flex-shrink: 0;
+margin-left: 780px;
+margin-top: -550px;
+color: #4D91FE;
+text-align: right;
+font-family: 'Russo One', sans-serif;
+font-size: 84px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.insta {
+    width: 36px;
+height: 36px;
+margin-left: 860px;
+margin-top: 50px;
+}
+.insta-text {
+    color: #000;
+font-family: Didact Gothic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 910px;
+margin-top: -40px;
+}
+
+.telegram {
+    width: 40px;
+height: 40px;
+margin-left: 860px;
+margin-top: 0px;
+}
+.telegram-text {
+    color: #000;
+font-family: Didact Gothic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 913px;
+margin-top: -40px;
+}
