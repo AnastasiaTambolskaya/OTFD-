@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#results-container {
+    margin-top: 20px;
+}
