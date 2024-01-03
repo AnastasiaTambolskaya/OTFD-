@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style/account.css">
+    <title>Тест</title>
+    <link rel="stylesheet" href="style/textrazdel1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,25 +22,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet"> 
-<title>Личный кабинет</title>
+<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <img src="image/otfd-logo.png" alt="otfd-logo" class="otfd-logo"></img>
-        <div class="header-right">
-            <a class="active" href="glavnaya.html">Главная</a>
-            <a  href="classes-soderjanie.html">Уроки курса</a>
-            <a href="login.html"> Войти</a>
-            <a href="account.html"><button class="btn-account"><img src="image/icon-account.png" alt="icon-account" class="icon-account"></button></a>
-          </div>
+    <img src="image/otfd-logo.png" alt="otfd-logo" class="otfd-logo"></img>
+    <div class="header-right">
+        <a class="active" href="glavnaya.html">Главная</a>
+        <a href="classes-soderjanie.html">Уроки курса</a>
+        <a href="login.html">Войти</a>
+        <a href="account.html"><button class="btn-account" ><img src="image/icon-account.png" alt="icon-account" class="icon-account"></button></a>
+      </div>
+    <div id="quiz-container">
+        <h1 class="headtext">Тест: Введение в Фронтенд-Разработку</h1>
+        <div id="question-container">
+            <!-- Вопросы и ответы будут вставлены с использованием JavaScript -->
+        </div>
+        <button id="submit-button"><img src="image/bellicon.png" alt=""></button>
+       
     </div>
-         <img src="image/man-sign.png" alt="man" class="man">
-         <div class="fio">
-            <div class="fiouser"></div>
-         </div>
-         <p class="email">Почта:</p>
-         <p class="password">Пароль:</p>
-         <div class="procces"></div>
+    <div id="results-container"></div>
+    <button id="nextbtn" href="#">Практическое задание</button>
+    <script src="textrazdel1.js"></script>
 </body>
 </html>

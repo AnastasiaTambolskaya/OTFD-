@@ -3,9 +3,13 @@ const questionContainer = document.getElementById('question-container');
 const resultsContainer = document.getElementById('results-container');
 const submitButton = document.getElementById('submit-button');
 
+
 const questions = [
-    { question: 'Вопрос 1: я даун?', answers: ['да', 'нет', 'наверное'], correctIndex: 0 },
-    { question: 'Вопрос 2: Ваш вопрос?', answers: ['Ответ 1', 'Ответ 2', 'Ответ 3'], correctIndex: 1 },
+    { question: 'Вопрос 1: Что представляет собой HTML в фронтенд-разработке?', answers: ['Язык программирования', 'Язык разметки', 'Язык стилей'], correctIndex: 1 },
+    { question: 'Вопрос 2: Какой из следующих языков используется для стилизации элементов на веб-странице?', answers: ['JavaScript', 'HTML', 'CSS'], correctIndex: 2 },
+    { question: 'Вопрос 3: Какие основные задачи решает JavaScript в фронтенд-разработке?', answers: ['Создание структуры контента', 'Придание динамичности и создание интерактивных элементов', 'Оформление визуального дизайна'], correctIndex: 1 },
+    { question: 'Вопрос 4: Что фронтенд-разработчик считает основой создания визуального волшебства на веб-странице?', answers: ['Только технические навыки', 'Только креативный подход', 'Совмещение технических навыков с творчеством'], correctIndex: 2 },
+    { question: 'Вопрос 5: Какой язык программирования используется для придания динамичности веб-странице?', answers: ['CSS', 'HTML', 'JavaScript'], correctIndex: 2 },
     // Добавьте другие вопросы по аналогии
 ];
 
@@ -46,7 +50,7 @@ function showResults() {
         }
     });
 
-    resultsContainer.innerHTML = `Правильных ответов: ${correctAnswers} из ${questions.length}`;
+    resultsContainer.innerHTML = `${correctAnswers} / ${questions.length}`;
 }
 
 buildQuiz();
