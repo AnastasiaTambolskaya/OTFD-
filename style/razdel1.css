@@ -79,9 +79,9 @@ font-weight: 400;
 line-height: normal;
 }
 .rectangle {
-    margin-left: 250px;
-    width: 1213px;
-height: 936px;
+    margin-left: 200px;
+    width: 1313px;
+height: 1236px;
 }
 .market {
     background: pink;
@@ -102,4 +102,33 @@ font-weight: 400;
 line-height: normal;
 border: none;
 cursor: pointer;
+}
+
+.scrin1 {
+    width: 400px;
+    height: 50px;
+}
+.scrin2 {
+    width: 400px;
+    height: 70px;
+}
+.scrin3 {
+    width: 400px;
+    height: 50px;
+}
+.scrin4  {
+    width: 400px;
+    height: 150px;
+}
+.scrin5  {
+    width: 400px;
+    height: 100px;
+}
+.scrin6  {
+    width: 400px;
+    height: 50px;
+}
+.scrin7  {
+    width: 400px;
+    height: 50px;
 }

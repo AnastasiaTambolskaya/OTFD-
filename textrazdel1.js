@@ -39,6 +39,7 @@ function buildQuiz() {
 function showResults() {
     const answerContainers = questionContainer.querySelectorAll('.question');
     let correctAnswers = 0;
+    let allQuestionsAnswered = true; // Flag to check if all questions are answered
     
     questions.forEach((question, index) => {
         const selectedInput = answerContainers[index].querySelector(`input[name="question${index}"]:checked`);
@@ -47,11 +48,34 @@ function showResults() {
             if (userAnswer === question.correctIndex) {
                 correctAnswers++;
             }
+        } else {
+            allQuestionsAnswered = false; // Set flag to false if any question is not answered
         }
     });
 
-    resultsContainer.innerHTML = `${correctAnswers} / ${questions.length}`;
+    if (allQuestionsAnswered) {
+        resultsContainer.innerHTML = `${correctAnswers} / ${questions.length}`;
+    } else {
+        alert('Пожалуйста, ответьте на все вопросы.');
+    }
 }
+
+// function showResults() {
+//     const answerContainers = questionContainer.querySelectorAll('.question');
+//     let correctAnswers = 0;
+    
+//     questions.forEach((question, index) => {
+//         const selectedInput = answerContainers[index].querySelector(`input[name="question${index}"]:checked`);
+//         if (selectedInput) {
+//             const userAnswer = parseInt(selectedInput.value);
+//             if (userAnswer === question.correctIndex) {
+//                 correctAnswers++;
+//             }
+//         }
+//     });
+
+//     resultsContainer.innerHTML = `${correctAnswers} / ${questions.length}`;
+// }
 
 buildQuiz();
 
