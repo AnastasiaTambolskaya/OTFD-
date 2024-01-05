@@ -64,7 +64,7 @@
         }
 
         #outputFrame {
-            height: 450px;
+            height: 250px;
             width: 60%;
             font-family: Open Sans;
             margin-top: 10px;
@@ -99,22 +99,25 @@ border-radius: 60px;
 background: #7EAAFF;
 border: none;
 cursor: pointer;
-
         }
         .text1 {
-            color: #FFF;
+            position: absolute;
+            margin-left: 1100px;
+            margin-top: 100px;
+            color: #000000;
 font-family: Didact Gothic;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-width: 81px;
-height: 33px;
-flex-shrink: 0;
-border-radius: 60px;
-background: #7EAAFF;
-border: none;
-cursor: pointer;
+max-width: 400px;
+        }
+        .site1 {
+            position: absolute;
+            margin-top: 500px;
+            margin-left: 1100px;
+            width: 500px;
+            height: 300px;
         }
     </style>
 </head>
@@ -126,44 +129,44 @@ cursor: pointer;
         <a href="login.html">Войти</a>
         <a href="account.html"><button class="btn-account" ><img src="image/icon-account.png" alt="icon-account" class="icon-account"></button></a>
       </div>
-        <p>
-            Ваша задача заключается в том, что сверстать данную часть. <br>
-            В данной части используются: текст, картинки, кнопка. <br>
-            Заглавным текстом является: Онлайн обучение фронтенд-разработке. Данный текст находится в теге h1.<br>
-            Следующий текст: самый бесплатный и нужный. Этот текст находится в теге h2. <br>
-            Оба текста расположены на прямоугольнике first_rectangle, но пока что мы его не увидим (прямоугольник будет отображаться после изучения CSS)<br>
-            На странице присутствует кнопка Start, используем тег button и называем класс btn1. <br>
-            Дальше опять текст: зачем? Данный текст находится в теге p с классом qua.
-            Создаем ещё один прямоугольник second_rectangle. <br>
-            И наконец-то наш задний фон. Задним фоно является картинка. путь которой image/rinascita.png. Добавляем к данному изображению id="rinascita".
-        </p>
-
+      <p class="text1">
+        Ваша задача заключается в том, что сверстать данную часть. <br>
+        В данной части используются: текст, картинки, кнопка. <br>
+        Заглавным текстом является: Онлайн обучение фронтенд-разработке. Данный текст находится в теге h1.<br>
+        Следующий текст: самый бесплатный и нужный. Этот текст находится в теге h2. <br>
+        Оба текста расположены на прямоугольнике first_rectangle, но пока что мы его не увидим (прямоугольник будет отображаться после изучения CSS)<br>
+        На странице присутствует кнопка Start, используем тег button и называем класс btn1. <br>
+        Дальше опять текст: зачем? Данный текст находится в теге p с классом qua.
+        Создаем ещё один прямоугольник second_rectangle. <br>
+        И наконец-то наш задний фон. Задним фоно является картинка. путь которой image/rinascita.png. Добавляем к данному изображению id="rinascita".<br>
+        По нажатию кнопки "Выполнить" можно увидеть в нижнем поле результат. После выполнения задания добавьте свой кусочек кода в свой проект в выбранную вами среду разработки и можете переходить к следующему уроку. 
+    </p>
+    <img src="image/site1.png" alt="site1" class="site1">
     <textarea id="codeInput" placeholder="Введите HTML-код"></textarea>
   <p>  <button id="executebtn" onclick="executeCode()">Выполнить</button></p>
    <p> <button id="clearbtn" onclick="clearCodeInput()">Удалить</button>
-   
     <div id="outputFrame"></div>
 
     <script>
-            function executeCode() {
-                var code = document.getElementById("codeInput").value;
-                var outputFrame = document.getElementById("outputFrame");
+        function executeCode() {
+            var code = document.getElementById("codeInput").value;
+            var outputFrame = document.getElementById("outputFrame");
 
-                // Создание iframe
-                var iframe = document.createElement("iframe");
-                iframe.width = "100%";
-                iframe.height = "100%";
-                iframe.style.border = "none";
-                iframe.srcdoc = code;
+            // Создание iframe
+            var iframe = document.createElement("iframe");
+            iframe.width = "100%";
+            iframe.height = "100%";
+            iframe.style.border = "none";
+            iframe.srcdoc = code;
 
-                // Очистка предыдущего содержимого iframe
-                while (outputFrame.firstChild) {
-                    outputFrame.removeChild(outputFrame.firstChild);
-                }
-
-                // Вставка iframe в область вывода
-                outputFrame.appendChild(iframe);
+            // Очистка предыдущего содержимого iframe
+            while (outputFrame.firstChild) {
+                outputFrame.removeChild(outputFrame.firstChild);
             }
+
+            // Вставка iframe в область вывода
+            outputFrame.appendChild(iframe);
+        }
 
         function clearCodeInput() {
             document.getElementById("codeInput").value = "";
