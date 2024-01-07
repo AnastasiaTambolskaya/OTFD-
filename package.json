@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "nodemailer": "^6.9.8",
+    "pdfmake": "^0.2.9"
+  }
+}
