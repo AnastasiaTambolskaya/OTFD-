@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+}
+
+.otfd-logo {
+    margin-top: 28px;
+    margin-left: 60px;
+}
+
+.header-right {
+    margin-left: 1080px;
+    margin-top: -60px;
+    color: #8493F6;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.header-right a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-right a:not(:last-child) {
+    margin-right: 47px;
+}
+
+.btn-account {
+    position: absolute;
+    margin-top: 2px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.rectagle {
+    margin-top: 105px;
+    margin-left: 125px;
+    width: 664px;
+height: 745px;
+border-radius: 50px;
+background: #FF7EAF;
+}
+.firstimg {
+    margin-top: -658px;
+    margin-left: 830px;
+    width: 730px;
+height: 811px;
+}
+.soderjanie {
+margin-left: 184px;
+margin-top: -700px;
+}
+
+.razdel {
+    color: #ffffff;
+
+font-family: Didact Gothic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.punct {
+    color: #FFF;
+
+font-family: Didact Gothic;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}

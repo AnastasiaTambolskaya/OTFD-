@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.head {
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 39px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 720px;
+    height: 507px;
+    border-radius: 50px;
+    background: #FFF;
+    margin-left: 86px;
+    margin-top: 205px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.man-sign {
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 113px;
+    width: 638px;
+    height: 750px;
+}
+
+.sign {
+    position: absolute;
+margin-top: 280px;
+margin-left: 370px;
+z-index: 2;
+
+}
+.ex-pass {
+    position: absolute;
+    margin-top: 525px;
+    margin-left: 350px;
+    color: rgba(0, 0, 0, 0.51);
+
+text-align: right;
+font-family: Didact Gothic;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+z-index: 2;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 325px;
+    border-radius: 50px;
+background: #FA005E;
+width: 194px;
+height: 48px;
+flex-shrink: 0;
+color: #FFF;
+
+font-family: Limelight;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+border: none;
+cursor: pointer;
+z-index: 2;
+}
+#email {
+    position: absolute;
+    margin-top: 383px;
+    margin-left: 150px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.51);
+    font-family: Didact Gothic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 550px;
+    z-index: 2;
+}
+
+
+#password {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 466px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: Didact Gothic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 550px;
+    z-index: 2;
+}

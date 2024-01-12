@@ -1,0 +1,492 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Limelight';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/limelight-v19-latin-regular.woff2') format('woff2');
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    /* background-image: url(image/rinascita); */
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+.header {
+    position: absolute;
+    color: #FFF;
+    width: 927px;
+    margin-top: 244px;
+    margin-left: 355px;
+    text-align: center;
+    font-family: Hachi Maru Pop;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.header_small {
+    position: absolute;
+    color: #FFF;
+    margin-top: 384px;
+    margin-left: 550px;
+    text-align: center;
+    font-family: Hachi Maru Pop;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.first_rectangle {
+    position: absolute;
+    width: 901px;
+    height: 231px;
+    border-radius: 20px;
+    background: rgba(2, 0, 0, 0.61);
+    margin-left: 370px;
+    margin-top: 220px;
+    z-index: 1;
+}
+
+
+.btn1 {
+    position: absolute;
+    width: 381px;
+    height: 73px;
+    border-radius: 40px;
+    background: #FFF;
+    color: #000;
+    margin-top: 700px;
+    margin-left: 620px;
+    font-family: Limelight;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 2;
+    border: none;
+}
+
+.qua {
+    color: white;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 730px;
+    text-align: center;
+    font-family: Poiret One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.second_rectagle {
+    position: absolute;
+    margin-top: 740px;
+    width: 1700px;
+    height: 175px;
+    flex-shrink: 0;
+    background: #161111;
+}
+
+
+#rinascita {
+    width: 1700px;
+    height: 740px;
+    margin-top: 0px;
+}
+
+.second_page {
+    width: 1700px;
+    height: 805px;
+    margin-top: 160px;
+    background-color: #361614;
+}
+
+.vvod {
+    position: absolute;
+    margin-left: 54px;
+    margin-top: 100px;
+    width: 1187px;
+    color: #FFF;
+
+    font-family: Poiret One;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#icon_1 {
+    position: absolute;
+    margin-left: 138px;
+    margin-top: 250px;
+}
+
+#icon_2 {
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 410px;
+}
+
+#icon_3 {
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 520px;
+}
+
+#icon_4 {
+    position: absolute;
+    margin-left: 790px;
+    margin-top: 600px;
+}
+
+.first_list {
+    width: 569px;
+    position: absolute;
+    color: #FFF;
+
+    text-align: right;
+    font-family: Poiret One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 138px;
+    margin-top: 250px;
+}
+
+.second_list {
+    width: 532px;
+    position: absolute;
+    color: #FFF;
+
+    text-align: right;
+    font-family: Poiret One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 410px;
+    margin-left: 175px;
+}
+
+.third_list {
+    position: absolute;
+    width: 525px;
+    color: #FFF;
+
+    text-align: right;
+    font-family: Poiret One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 520px;
+    margin-left: 175px;
+}
+
+.forth_list {
+    position: absolute;
+    color: #FFF;
+    margin-left: 380px;
+    margin-top: 650px;
+    text-align: center;
+    font-family: Poiret One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 872px;
+}
+
+#secondpageimg {
+    width: 432px;
+    height: 378px;
+    margin-left: 980px;
+    margin-top: 220px;
+}
+
+.third_page_text {
+    margin-top: 264px;
+    position: absolute;
+    color: #FFF;
+    margin-left: 640px;
+    font-family: Poiret One;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.forth_rectangle {
+    position: absolute;
+    width: 1700px;
+    z-index: 1;
+    height: 222px;
+    background: #790000;
+    margin-top: 200px;
+}
+
+.third_page {
+    position: absolute;
+    background: #320000;
+    margin-top: 300px;
+    width: 1700px;
+    height: 962px;
+}
+
+.third_page_firstlist {
+    position: absolute;
+    z-index: 2;
+    margin-left: 580px;
+    margin-top: 222px;
+    color: #FFF;
+
+    font-family: Poiret One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 490px;
+}
+
+.third_page_icon1 {
+    position: absolute;
+    z-index: 2;
+    margin-left: 525px;
+    margin-top: 205px;
+}
+
+.third_page_secondlist {
+    position: absolute;
+    color: #FFF;
+    margin-left: 750px;
+    margin-top: 420px;
+    width: 213.912px;
+    text-align: right;
+    font-family: Poiret One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.third_page_icon2 {
+    position: absolute;
+    z-index: 2;
+    margin-left: 725px;
+    margin-top: 405px;
+}
+
+.third_page_thirdlist {
+    position: absolute;
+    color: #FFF;
+    width: 569px;
+    margin-top: 800px;
+    margin-left: 150px;
+    font-family: Poiret One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.third_page_icon3 {
+    position: absolute;
+    margin-left: 89px;
+    margin-top: 800px;
+}
+
+.third_page_img1 {
+    width: 457px;
+    height: 534px;
+    margin-left: 91px;
+    margin-top: 250px;
+}
+
+.third_page_img2 {
+    width: 564px;
+    height: 560px;
+    margin-left: 980px;
+    margin-top: -440px;
+}
+
+.forth_page_text {
+    position: absolute;
+    margin-top: 1270px;
+    margin-left: 550px;
+    color: #FFF;
+
+    font-family: Poiret One;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.fifth_rectangle {
+    position: absolute;
+    margin-top: 1237px;
+    width: 1700px;
+    height: 141px;
+    background: #521717;
+}
+
+.forth_page {
+    width: 1700px;
+    height: 551px;
+    background: #6C1414;
+    position: absolute;
+    margin-top: 1378px;
+}
+
+
+.btn2 {
+    position: absolute;
+    width: 381px;
+    height: 73px;
+    border-radius: 40px;
+    background: #FFF;
+    color: #000;
+    margin-top: -30px;
+    margin-left: 620px;
+    font-family: Limelight;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.forth_page_list1 {
+    position: absolute;
+    color: #FFF;
+
+    font-family: Poiret One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 122px;
+    margin-left: 320px;
+}
+
+.forth_page_icon1 {
+    position: absolute;
+    width: 182px;
+    height: 182px;
+    margin-top: 50px;
+    margin-left: 117px;
+}
+
+.forth_page_list2 {
+    position: absolute;
+    color: #FFF;
+
+    font-family: Poiret One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 297px;
+    margin-left: 320px;
+}
+
+.forth_page_icon2 {
+    position: absolute;
+    margin-top: 247px;
+    margin-left: 148px;
+    width: 120px;
+    height: 120px;
+}
+
+
+.forth_page_list3 {
+    position: absolute;
+    color: #FFF;
+
+    font-family: Poiret One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 122px;
+    margin-left: 1298px;
+}
+
+.forth_page_icon3 {
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 50px;
+    width: 181px;
+    height: 181px;
+}
+
+.forth_list_text {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Hachi Maru Pop;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 262px;
+    margin-top: 336px;
+    width: 1155.995px;
+    transform: rotate(-0.085deg);
+}
+
+/* .third_rectangle {
+width: 1700px;
+height: 805px;
+background: #361614;
+
+
+} */

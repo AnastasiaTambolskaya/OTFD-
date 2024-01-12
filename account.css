@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+}
+
+.otfd-logo {
+    margin-top: 28px;
+    margin-left: 60px;
+}
+
+.header-right {
+    margin-top: -60px;
+    margin-left: 1080px;
+    color: #8493F6;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.header-right a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-right a:not(:last-child) {
+    margin-right: 47px;
+}
+.btn-account {
+    position: absolute;
+    margin-top: 2px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.man {
+    width: 661px;
+height: 702px;
+margin-top: 113px;
+}
+.fiouser {
+    color: #5E80FF;
+
+text-align: center;
+font-family: Days One;
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.email {
+    font-family: Didact Gothic;
+    color: #000;
+font-family: Didact Gothic;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -502px;
+margin-left: 702px;
+}
+.password {
+    color: #000;
+font-family: Didact Gothic;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
+margin-left: 702px;
+}

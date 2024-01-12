@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#quiz-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#question-container {
+    margin-bottom: 20px;
+    color: #000000;
+font-family: Didact Gothic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#submit-button {
+    margin-top: -150px;
+    margin-left: -200px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#results-container {
+    margin-top: 20px;
+}
+body{
+    background-color: white;
+}
+
+.otfd-logo {
+    margin-top: 28px;
+    margin-left: 60px;
+}
+
+.header-right {
+    margin-top: -60px;
+    margin-left: 1080px;
+    color: #8493F6;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.header-right a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-right a:not(:last-child) {
+    margin-right: 47px;
+}
+
+.btn-account {
+    position: absolute;
+    margin-top: 2px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: -60px;
+}
+.header {
+    color: #5E80FF;
+margin-top: 120px;
+margin-left: 450px;
+text-align: center;
+font-family: Russo One ;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+width: 832px;
+}
+
+.secondtext {
+    color: #5E80FF;
+text-align: center;
+font-family: Didact Gothic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 832px;
+margin-left: 450px;
+margin-top: -30px;
+}
+
+.textclasses {
+    margin-left: 430px;
+    position: absolute;
+    width: 855px;
+    color: #000;
+font-family: Didact Gothic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.rectangle {
+    margin-left: 250px;
+    width: 1213px;
+height: 936px;
+}
+.market {
+    background: pink;
+    
+}
+.btn {
+    width: 281px;
+height: 43px;
+border-radius: 60px;
+background: #FF7EAF;
+color: #FFF;
+margin-left: 1200px;
+margin-top: 20px;
+font-family: Didact Gothic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+cursor: pointer;
+}
+
+.headtext {
+    font-family: Russo One;
+    color: #5E80FF;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+#results-container {
+    position: absolute;
+    font-family: Russo One;
+    color: #5E80FF;
+text-align: center;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin-top: -95px;
+margin-left: 1050px;
+}
+#nextbtn {
+    position: absolute;
+    color: #FFF;
+
+font-family: Didact Gothic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 281px;
+height: 43px;
+flex-shrink: 0;
+border-radius: 60px;
+background: #7EAAFF;
+border: none;
+cursor: pointer;
+margin-left: 1350px;
+margin-top: -80px;
+}
