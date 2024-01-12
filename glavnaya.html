@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+{% load static %}
+{% block content %}
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/glavnaya.css">
+   <link rel="stylesheet" href="{% static 'core/glavnaya.css' %}"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">   
+<link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,1000&display=swap" rel="stylesheet">
@@ -26,51 +28,53 @@
 </head>
 <body>
     <div class="header">
-        <a href="glavnaya.html"><img src="image/otfd-logo.png" alt="otfd-logo" class="otfd-logo"></img></a>
+        <img src="{% static 'image/otfd-logo.png' %}" alt="otfd-logo" class="otfd-logo"></img>
         <div class="header-right">
-            <a class="active" href="glavnaya.html">Главная</a>
-            <a href="classes-soderjanie.html">Уроки курса</a>
-            <a href="login.html">Войти</a>
-            <a href="account.html"><button class="btn-account" ><img src="image/icon-account.png" alt="icon-account" class="icon-account"></button></a>
-          </div>
-         
-          <img src="image/ПОРА НАЧАТЬ ВМЕСТЕ С1.png" class="text-pora"></img>
+
+            <a href="{% url 'soder' %}">Уроки курса</a>
+          <a href="{% url 'account' %}"><button class="btn-account"><img src="{% static 'image/icon-account.png' %}" alt="icon-account"
+                    class="icon-account"></button></a>
+        </div>
+
+          <img src="{% static 'image/ПОРА НАЧАТЬ ВМЕСТЕ С1.png' %}" class="text-pora"></img>
           <p class="text-otfd">OTFD</p>
-          <img src="image/icon-glavnaya.png" alt="icon-glavnaya" class="icon-glavnaya">
-          <a href="classes-soderjanie.html"><button class="btn-start">START</button></a>
+          <img src="{% static 'image/icon-glavnaya.png' %}" alt="icon-glavnaya" class="icon-glavnaya">
+          <button class="btn-start">START</button>
     </div>
     <div class="second_page">
-        <img src="image/OTFD - это бесплатный курс по фронтенд-разработке..png" alt="text-secondpage" class="text-secondpage">
-        <img src="image/_Данный курс является ознакомительной частью фронтенд-разработки.png" alt="text-grey" class="text-grey">
-       <img src="image/man-glavnaya1.png" alt="man-glavnaya1" class="man-glavnaya1">
-        <img src="image/rectangle_glavnaya.png" alt="rectangle_glavnaya" class="rectangle_glavnaya">
+        <img src="{% static 'image/OTFD - это бесплатный курс по фронтенд-разработке..png' %}" alt="text-secondpage" class="text-secondpage">
+        <img src="{% static 'image/_Данный курс является ознакомительной частью фронтенд-разработки.png' %}" alt="text-grey" class="text-grey">
+       <img src="{% static 'image/man-glavnaya1.png' %}" alt="man-glavnaya1" class="man-glavnaya1">
+        <img src="{% static 'image/rectangle_glavnaya.png' %}" alt="rectangle_glavnaya" class="rectangle_glavnaya">
         <p class="vvodni_text">В этом курсе вы познакомитесь с:</p>
         <div class="bukvaA">
-        <img src="image/буква_А.png" alt="буква_А" class="bukvaA_img">
+        <img src="{% static 'image/буква_А.png' %}" alt="буква_А" class="bukvaA_img">
         <p class="bukvaA">Основы языков разметки (HTML, CSS)</p>
     </div>
         <div class="bukvaB">
-            <img src="image/bukva_B.png" alt="bukva_B" class="bukvaB_img">
+            <img src="{% static 'image/bukva_B.png' %}" alt="bukva_B" class="bukvaB_img">
             <p class="bukvaB">Язык программирования JavaScript</p>
         </div>
         <div class="bukvaC">
-            <img src="image/bukva_C.png" alt="bukva_C" class="bukvaC_img">
+            <img src="{% static 'image/bukva_C.png' %}" alt="bukva_C" class="bukvaC_img">
             <p class="bukvaC">React.js, Vue.js</p>
         </div>
     </div>
     <div class="third_page">
-        <img src="image/И МНОГОЕ ДРУГОЕ!.png" alt="text_thirdpage" class="text_thirdpage">
-       
-        <img src="image/rectangle_thirdpage.png" alt="rectaglethird" class="rectaglethird">
+        <img src="{% static 'image/И МНОГОЕ ДРУГОЕ!.png' %}" alt="text_thirdpage" class="text_thirdpage">
+
+        <img src="{% static 'image/rectangle_thirdpage.png' %}" alt="rectaglethird" class="rectaglethird">
     </div>
     <div class="lastpage">
-        <img src="image/Knowledge.png" alt="Knowledge" class="Knowledge">
+        <img src="{% static 'image/Knowledge.png' %}" alt="Knowledge" class="Knowledge">
         <!-- <img src="image/У ТЕБЯ ВСЁ ПОЛУЧИТСЯ!.png" alt="lasttext" class="lasttext"> -->
         <p class="lasttext">У ТЕБЯ ВСЁ ПОЛУЧИТСЯ</p>
-        <img src="image/insta.png" alt="insta" class="insta">
-        <a href="https://www.instagram.com/willowsuka/"><p class="insta-text">@willows**a</p></a>
-        <img src="image/telegram.png" alt="telegram" class="telegram">
-        <a href="https://t.me/wwiilliiww"><p class="telegram-text">@williiww</p></a>
+        <img src="{% static 'image/insta.png' %}" alt="insta" class="insta">
+        <p class="insta-text">@willows**a</p>
+        <img src="{% static 'image/telegram.png' %}" alt="telegram" class="telegram">
+        <p class="telegram-text">@williiww</p>
     </div>
 </body>
 </html>
+
+{% endblock %}

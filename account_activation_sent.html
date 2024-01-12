@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Activation Email Sent{% endblock %}
+
+{% block content %}
+{% csrf_token %}
+  <h2>Ваш аккаунт создан</h2>
+  <p>Пожалуйста проверьте свою почту на наличие ссылки </p>
+{% endblock %}

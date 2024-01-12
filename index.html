@@ -1,11 +1,14 @@
 <!DOCTYPE html>
+
+{% load static %}
+{% block content %}
 <html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="{% static 'core/style.css' %}"/>
+    <link rel="stylesheet" href="{% static 'core/reset.css' %}"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@1&display=swap" rel="stylesheet">
@@ -22,6 +25,7 @@
 
 <body>
 
+
     <div class="first_page">
         <h1 class="header">онлайн обучение фронтенд-разработке</h1>
         <h2 class="header_small">самый бесплатный и нужный</h2>
@@ -29,13 +33,13 @@
         <button class="btn1">START</button>
         <p class="qua">зачем?</p>
         <div class="second_rectagle"></div>
-        <img src="image/rinascita.png" alt="" id="rinascita">
+        <img src="{% static 'image/rinascita.png' %}" alt="" id="rinascita">
     </div>
     <div class="second_page">
-        <img src="image/icon_1.png" alt="" id="icon_1">
-        <img src="image/icon_2.png" alt="" id="icon_2">
-        <img src="image/icon_3.png" alt="" id="icon_3">
-        <img src="image/icon_4.png" alt="" id="icon_4">
+        <img src="{% static 'image/icon_1.png' %}" alt="" id="icon_1">
+        <img src="{% static 'image/icon_2.png' %}" alt="" id="icon_2">
+        <img src="{% static 'image/icon_3.png' %}" alt="" id="icon_3">
+        <img src="{% static 'image/icon_4.png' %}" alt="" id="icon_4">
         <p class="vvod"> Представь себе мир, где ты легко воплощаешь свои творческие идеи в жизнь, создавая визуально
             впечатляющие и функциональные веб-проекты. Вот лишь несколько причин, почему этот курс станет ключом к
             раскрытию твоего потенциала:</p>
@@ -47,7 +51,7 @@
             портфель.</p>
         <p class="forth_list"> Освоив навыки фронтенд-разработки, ты сможешь воплощать свои идеи и вдохновлять
             пользователей своими уникальными веб-проектами.</p>
-        <img src="image/secondpageimg.png" alt="" id="secondpageimg">
+        <img src="{% static 'image/secondpageimg.png' %}" alt="" id="secondpageimg">
         <div class="third_rectangle"></div>
         <p class="third_page_text">Что ждет тебя?</p>
         <div class="forth_rectangle"></div>
@@ -58,23 +62,23 @@
                 Vue.js, и многое другое.</p>
             <p class="third_page_thirdlist"> Получи сертификат о завершении курса и докажи свои навыки в мире
                 веб-разработки.</p>
-            <img src="image/third_page_icon1.png" alt="" class="third_page_icon1">
-            <img src="image/third_page_icon2.png" alt="" class="third_page_icon2">
-            <img src="image/third_page_icon3.png" alt="" class="third_page_icon3">
-            <img src="image/third_page_img1.png" alt="" class="third_page_img1">
-            <img src="image/third_page_img2.png" alt="" class="third_page_img2">
+            <img src="{% static 'image/third_page_icon1.png' %}" alt="" class="third_page_icon1">
+            <img src="{% static 'image/third_page_icon2.png' %}" alt="" class="third_page_icon2">
+            <img src="{% static 'image/third_page_icon3.png' %}" alt="" class="third_page_icon3">
+            <img src="{% static 'image/third_page_img1.png' %}" alt="" class="third_page_img1">
+            <img src="{% static 'image/third_page_img2.png' %}" alt="" class="third_page_img2">
         </div>
         <p class="forth_page_text">может начнём уже?</p>
         <div class="fifth_rectangle"></div>
         <div class="forth_page">
             <button class="btn2">START</button>
-            <img src="image/forth_page_icon1.png" alt="" class="forth_page_icon1">
+            <img src="{% static 'image/forth_page_icon1.png' %}" alt="" class="forth_page_icon1">
             <p class="forth_page_list1">Minsk, belarus</p>
             <p class="forth_page_list2">willows**a</p>
             <p class="forth_page_list3">@wwiilliiww</p>
 
-            <img src="image/forth_page_icon2.png" alt="" class="forth_page_icon2">
-            <img src="image/forth_page_icon3.png" alt="" class="forth_page_icon3">
+            <img src="{% static 'image/forth_page_icon2.png' %}" alt="" class="forth_page_icon2">
+            <img src="{% static 'image/forth_page_icon3.png' %}" alt="" class="forth_page_icon3">
             <p class="forth_list_text">пройди, иначе пожалеешь!</p>
         </div>
 
@@ -84,3 +88,5 @@
 </body>
 
 </html>
+
+{% endblock %}

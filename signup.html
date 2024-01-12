@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+      .man-login {
+    position: relative;
+    left: 20px; /* Измените значение в соответствии с вашими потребностями */
+    margin-top: -600px;
+}
+
+
+        form {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 80px;
+            box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.2);
+            width: 550px;
+
+            margin-top: 78px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .field {
+            margin-top: 20px;
+            border-radius: 50px;
+        }
+
+        .btn {
+            display: block;
+            width: 30%;
+            padding: 10px;
+            background: #FA005E;
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin: 20px auto;
+        }
+
+        input[type="text" ],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border-radius: 50px;
+        }
+       .ex-pass {
+    position: absolute;
+    margin-top: -19px;
+    margin-left: 210px;
+    color: rgba(0, 0, 0, 0.51);
+    </style>
+</head>
+
+
+<body>
+ <img src="{% static 'image/man-login .png' %}" alt="otfd-logo" class="head">
+  <img src="{% static 'image/otfd-logo.png' %}" alt="man-login" class="man-login">
+
+<form method="post">
+
+   {% csrf_token %}
+   <div class="field">
+
+       <img src="{% static 'image/РЕГИСТРАЦИЯ.png' %}" alt="РЕГИСТРАЦИЯ" class="sign">
+       <div class="field">
+           {{ form.as_p }}
+           <a href="{% url 'account_activation_complete' %}" class="ex-pass">Уже есть аккаунт?</a>
+           <button type="submit" class="btn">Ok</button>
+
+       </div>
+   </div>
+</form>
+
+<script src="{% static 'javascript/sign.js' %}"></script>
+</body>
+</html>

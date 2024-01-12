@@ -1,6 +1,11 @@
+
+
+{% block content %}
+
+
 <!DOCTYPE html>
 {% load static %}
-{% block content %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,6 +26,9 @@
 <link rel="stylesheet" href="{% static 'core/reset.css' %}">
 <link rel="stylesheet" href="{% static 'core/sign.css' %}">
 </head>
+<style>
+
+</style>
 <body>
     <img src="{% static 'image/otfd-logo.png' %}" alt="otfd-logo" class="head">
     <img src="{% static 'image/ВХОД.png' %}" alt="ВХОД" class="sign">
@@ -29,11 +37,13 @@
         <input type="email" id="email" class="input-field" placeholder="example@example.com" required>
         <p><input type="password" id="password" class="input-field" placeholder="Enter your password" required></p>
     </div>
-    <button class="btn">OK</button>
+    <a href="{% url 'glav' %}" class="btn">
+    <button  type="submit" class="btn"></button>
+</a>
     <div class="rectangle"></div>
-<a href="#" class="ex-pass">Забыли пароль?</a>
     <img src="{% static 'image/man-sign.png' %}" alt="man-sign" class="man-sign">
     <script src="{% static 'javascript/sign.js' %}"></script>
 </body>
 </html>
 {% endblock %}
+

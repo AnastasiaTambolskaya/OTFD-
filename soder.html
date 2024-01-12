@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+{% block content %}
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Содержание</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'core/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'core/classes-soderjanie.css' %}">
+</head>
+
+<body>
+    <img src="{% static 'image/otfd-logo.png' %}" alt="otfd-logo" class="otfd-logo"></img>
+    <div class="header-right">
+        <a class="active" href="{% url 'glav' %}">Главная</a>
+        <a href="#contact">Уроки курса</a>
+        <a href="login.html">Войти</a>
+        <a href="{% url 'account' %}"><button class="btn-account"><img src="{% static 'image/icon-account.png' %}" alt="icon-account"
+                    class="icon-account"></button></a>
+    </div>
+    <div class="rectagle"></div>
+    <div class="soderjanie">
+        <p><a href="razdel1.html" class="razdel">Раздел 1: Введение в Фронтенд-Разработку</a></p>
+        <p><a href="razdel1.1.html" class="punct">Знакомство с фронтенд-разработкой и ее ролью.</a></p>
+        <p><a href="razdel1.2.html" class="punct">Основные технологии: HTML, CSS, JavaScript.</a></p>
+        <p><a href="razdel1.3.html" class="punct">Работа с браузерами и инструментами разработчика.</a></p>
+        <p><a href="razdel2.html" class="razdel">Раздел 2: HTML и Структура Веб-Страниц</a></p>
+        <p><a href="razdel2.1.html" class="punct">Разметка HTML: теги, элементы, атрибуты.</a></p>
+        <p> <a href="razdel2.2.html" class="punct">Семантическая разметка и ее влияние на SEO.</a></p>
+        <p> <a href="razdel2.3.html" class="punct">Основные структурные элементы веб-страницы.</a></p>
+        <p> <a href="razdel3.html" class="razdel">Раздел 3: Основы CSS и Стилизация</a></p>
+        <p><a href="razdel3.1.html" class="punct">Основы CSS: селекторы, свойства, значения.</a></p>
+        <p><a href="razdel3.2.html" class="punct">Бокс-модель и позиционирование элементов.</a></p>
+        <p><a href="razdel3.3.html" class="punct">Применение стилей к тексту, изображениям, фонам.</a></p>
+        <p><a href="razdel4.html" class="razdel">Раздел 4: Работа с JavaScript</a></p>
+        <p> <a href="razdel4.1.html" class="punct">Введение в JavaScript: переменные, типы данных, операторы.</a></p>
+        <p> <a href="razdel4.2.html" class="punct">Основы программирования: условия, циклы, функции.</a></p>
+        <p> <a href="razdel4.3.html" class="punct">Взаимодействие с DOM и событиями.</a></p>
+        <p><a href="razdel5.html" class="razdel">Раздел 5: Frontend Frameworks</a></p>
+        <p><a href="razdel5.1.html" class="punct">Знакомство с популярными фронтенд-фреймворками (например, React, Vue.js).</a> </p>
+        <p><a href="razdel5.2.html" class="punct">Компонентный подход к разработке интерфейсов.</a></p>
+        <p> <a href="razdel6.html" class="razdel">Раздел 6: Финальный проект, подготовка к работе</a></p>
+        <p> <a href="razdel6.html" class="punct">Разработка финального веб-проекта с использованием всех изученных навыков.</a></p>
+        <p> <a href="razdel6.2.html" class="punct">Советы по поиску работы и дальнейшему профессиональному росту.</a></p>
+    </div>
+    <img src="{% static 'image/Happy Couples.png' %}" alt="Happy" class="firstimg">
+</body>
+
+</html>
+
+{% endblock %}

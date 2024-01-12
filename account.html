@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+{% load static %}
+{% block content %}
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style/account.css">
+ <link rel="stylesheet" href="{% static 'core/account.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,20 +28,22 @@
 </head>
 <body>
     <div class="header">
-        <img src="image/otfd-logo.png" alt="otfd-logo" class="otfd-logo"></img>
+        <img src="{% static 'image/otfd-logo.png' %}" alt="otfd-logo" class="otfd-logo"></img>
         <div class="header-right">
-            <a class="active" href="glavnaya.html">Главная</a>
-            <a  href="classes-soderjanie.html">Уроки курса</a>
-            <a href="login.html"> Войти</a>
-            <a href="account.html"><button class="btn-account"><img src="image/icon-account.png" alt="icon-account" class="icon-account"></button></a>
+            <a class="active" href="">Главная</a>
+            <a  href="{% url 'soder' %}">Уроки курса</a>
+
+            <a href="{% url 'account' %}"><button class="btn-account"><img src="{% static 'image/icon-account.png' %}" alt="icon-account" class="icon-account"></button></a>
           </div>
     </div>
-         <img src="image/man-sign.png" alt="man" class="man">
+         <img src="{% static 'image/man-sign.png' %}" alt="man-sign.png" class="man">
          <div class="fio">
             <div class="fiouser"></div>
          </div>
-         <p class="email">Почта:</p>
-         <p class="password">Пароль:</p>
+         <p class="email">Имя: {{ user.username }}</p>
+         <p class="password">Почта: {{ user.email }}</p>
          <div class="procces"></div>
 </body>
 </html>
+
+{% endblock %}
